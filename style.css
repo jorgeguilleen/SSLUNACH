@@ -1,0 +1,103 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+
+header{
+    background-color: 	#003153;
+    height: 100px;
+}
+
+h1{
+    color: white;
+    font-size: xx-large;
+}
+
+h2{
+    color: rgb(166, 129, 27);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 100px;
+    margin: 50px;
+    padding-top: 100px;
+}
+
+section{
+    background-color: #ffdd90;
+    background-image: url("../img/fondo.png");
+    height: 800px;
+}
+
+footer{
+    background-color:rgb(207, 154, 10);
+    height: 70px;
+}
+
+P{
+    font-size: xx-large;
+}
+
+.art{
+display: flex;
+}
+
+.nav{
+  background-color: #436B95;
+  padding: 20px;
+  padding-left: 150px;
+  margin: 100px;
+  margin-top: 15px;
+  margin-left: 150px;
+}
+
+
+.main-links {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+  }
+
+.main-links li {
+  padding: 0.5rem 1rem;
+  background-color: rgb(207, 154, 10);
+   
+  }
+  div{
+    background-color: rgb(207, 154, 10);
+  }
+  
+  .dropdown-li {
+    position: relative;
+  }
+  
+  .dropdown-li:hover .dropdown {
+    display: block;
+    opacity: 1;
+  }
+  
+  .dropdown {
+    background-color: slateblue;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    opacity: 0;
+    display: none;
+    background: red;
+  }
+
+  .abajo{
+    margin-left: 20%;
+    padding-top: 600px;
+    color: white;
+  }
+  
+  .dropdown li {
+    list-style: none;
+    background-color: white;
+  }
